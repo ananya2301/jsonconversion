@@ -1,0 +1,3231 @@
+﻿{
+  "#comment": "",
+  "html": {
+    "@lang": "en",
+    "head": {
+      "#comment": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "script": [
+        "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\r\n\tnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\r\n\tj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\r\n\t'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\r\n\t})(window,document,'script','dataLayer','GTM-K65MLJG');",
+        {
+          "@src": "https://code.jquery.com/jquery-2.2.4.min.js"
+        }
+      ],
+      "meta": [
+        {
+          "@charset": "utf-8"
+        },
+        {
+          "@http-equiv": "X-UA-Compatible",
+          "@content": "IE=edge"
+        },
+        {
+          "@name": "viewport",
+          "@content": "width=device-width, initial-scale=1"
+        },
+        {
+          "@name": "author",
+          "@content": "Edamam"
+        },
+        {
+          "@name": "robots",
+          "@content": "all,index,follow"
+        },
+        {
+          "@name": "googlebot",
+          "@content": "index,follow,noodp"
+        },
+        {
+          "@name": "msnbot",
+          "@content": "all,index,follow"
+        },
+        {
+          "@name": "verify-v1",
+          "@content": "Google Webmaster tools"
+        },
+        {
+          "@name": "verify-v1",
+          "@content": "Yahoo Site Explorer"
+        },
+        {
+          "@name": "verify-v1",
+          "@content": "MSN Webmaster Center"
+        },
+        {
+          "@name": "google-site-verification",
+          "@content": "kPIO5iVh41BNkQ1r_kSgUiqhxSzlxGVcCHSYWQ1Cvz0"
+        },
+        {
+          "@name": "SKYPE_TOOLBAR",
+          "@content": "SKYPE_TOOLBAR_PARSER_COMPATIBLE"
+        },
+        {
+          "@name": "description",
+          "@content": "API developer portal for Nutrition Analysis, Food Database Lookup, Recipe Search API and others. Choose the API license you need."
+        },
+        {
+          "@name": "keywords",
+          "@content": "edamam, recipes, food, nutritions, ingredients, calories, servings"
+        }
+      ],
+      "title": "Recipe Database, Nutrition Analysis and Food Database APIs by Edamam",
+      "link": [
+        {
+          "@rel": "icon",
+          "@type": "image/png",
+          "@href": "//edamam.com/assets/img/favicon-32x32.png",
+          "@sizes": "32x32"
+        },
+        {
+          "@rel": "icon",
+          "@type": "image/png",
+          "@href": "//edamam.com/assets/img/favicon-16x16.png",
+          "@sizes": "16x16"
+        },
+        {
+          "@href": "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css",
+          "@rel": "stylesheet"
+        },
+        {
+          "@href": "https://fonts.googleapis.com/css?family=Roboto:400,100,300,100italic,300italic,400italic,500italic,500,700,700italic,900,900italic",
+          "@rel": "stylesheet",
+          "@type": "text/css"
+        },
+        {
+          "@rel": "stylesheet",
+          "@href": "https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+        },
+        {
+          "@href": "/css/style.css",
+          "@rel": "stylesheet"
+        },
+        {
+          "@href": "/css/build.css",
+          "@rel": "stylesheet"
+        },
+        {
+          "@href": "/css/redesign.css",
+          "@rel": "stylesheet"
+        }
+      ]
+    },
+    "body": {
+      "#comment": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "noscript": {
+        "iframe": {
+          "@src": "https://www.googletagmanager.com/ns.html?id=GTM-K65MLJG",
+          "@height": "0",
+          "@width": "0",
+          "@style": "display:none;visibility:hidden"
+        }
+      },
+      "nav": {
+        "@class": "navbar navbar-default",
+        "@role": "navigation",
+        "div": {
+          "@class": "container-fluid",
+          "#comment": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "div": [
+            {
+              "@class": "navbar-header",
+              "button": {
+                "@type": "button",
+                "@class": "navbar-toggle",
+                "@data-toggle": "collapse",
+                "@data-target": "#navbar-brand-centered",
+                "span": [
+                  {
+                    "@class": "sr-only",
+                    "#text": "Toggle navigation"
+                  },
+                  {
+                    "@class": "icon-bar"
+                  },
+                  {
+                    "@class": "icon-bar"
+                  },
+                  {
+                    "@class": "icon-bar"
+                  }
+                ]
+              },
+              "div": {
+                "@class": "navbar-brand",
+                "a": {
+                  "@href": "https://www.edamam.com/",
+                  "img": {
+                    "@src": "/images/logo-dev.png"
+                  }
+                }
+              }
+            },
+            {
+              "@class": "collapse navbar-collapse",
+              "@id": "navbar-brand-centered",
+              "ul": [
+                {
+                  "@class": "nav navbar-nav navbar-brand-centered",
+                  "li": [
+                    {
+                      "a": {
+                        "@href": "/",
+                        "#text": "API Developer Portal"
+                      }
+                    },
+                    {
+                      "a": {
+                        "@href": "https://wizard.edamam.com/",
+                        "@target": "_blank",
+                        "#text": "Nutrition Wizard"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "@class": "nav navbar-nav navbar-right login-buttons",
+                  "#comment": "",
+                  "li": [
+                    {
+                      "div": {
+                        "@class": "dropdown",
+                        "@id": "signupFormMenu",
+                        "button": {
+                          "@type": "button",
+                          "@class": "btn sign-up",
+                          "@data-toggle": "dropdown",
+                          "@aria-haspopup": "true",
+                          "@aria-expanded": "false",
+                          "#text": "Sign Up"
+                        },
+                        "ul": {
+                          "@class": "dropdown-menu",
+                          "li": [
+                            {
+                              "a": {
+                                "@href": "/edamam-nutrition-api",
+                                "#text": "Nutrition Analysis API"
+                              }
+                            },
+                            {
+                              "a": {
+                                "@href": "/food-database-api",
+                                "#text": "Food Database API"
+                              }
+                            },
+                            {
+                              "a": {
+                                "@href": "/edamam-recipe-api",
+                                "#text": "Recipe Search API"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "button": {
+                        "@type": "button",
+                        "@class": "btn sign-up",
+                        "@data-toggle": "dropdown",
+                        "@id": "signIn",
+                        "@aria-haspopup": "true",
+                        "@aria-expanded": "false",
+                        "#text": "Sign In"
+                      },
+                      "div": {
+                        "@class": "col-md-12 dropdown-menu",
+                        "@id": "loginFormMenu",
+                        "@aria-labelledby": "signIn",
+                        "form": {
+                          "@action": "/session",
+                          "@method": "post",
+                          "@class": "formtastic formtastic session form-horizontal login-form",
+                          "@accept-charset": "UTF-8",
+                          "@id": "new_session",
+                          "div": [
+                            {
+                              "@style": "margin:0;padding:0;display:inline",
+                              "input": [
+                                {
+                                  "@type": "hidden",
+                                  "@name": "utf8",
+                                  "@value": "&#x2713;"
+                                },
+                                {
+                                  "@type": "hidden",
+                                  "@name": "authenticity_token",
+                                  "@value": "IYBdHUFkirwl11bNJ89hOO5HaQ/BXY1lgCTbPjsbOfOWPAn2LHUczhclfUFYrKzRPSuufANOI/zS0XDPicGqyg=="
+                                },
+                                {
+                                  "@type": "hidden",
+                                  "@name": "_method",
+                                  "@value": "post"
+                                }
+                              ]
+                            },
+                            {
+                              "@class": "form-group",
+                              "div": {
+                                "@class": "col-sm-12",
+                                "input": {
+                                  "@type": "email",
+                                  "@class": "form-control",
+                                  "@id": "session_username",
+                                  "@name": "username",
+                                  "@placeholder": "Email address",
+                                  "@data-error": "Please fill out this field.",
+                                  "@required": ""
+                                },
+                                "div": {
+                                  "@class": "help-block with-errors"
+                                }
+                              }
+                            },
+                            {
+                              "@class": "form-group",
+                              "div": {
+                                "@class": "col-sm-12",
+                                "input": {
+                                  "@type": "password",
+                                  "@class": "form-control",
+                                  "@id": "session_password",
+                                  "@name": "password",
+                                  "@placeholder": "Password",
+                                  "@data-error": "Please fill out this field.",
+                                  "@required": ""
+                                },
+                                "div": {
+                                  "@class": "help-block with-errors"
+                                }
+                              }
+                            },
+                            {
+                              "@class": "form-group",
+                              "div": {
+                                "@class": "col-sm-12 login-links",
+                                "a": {
+                                  "@href": "javascript:void(0)",
+                                  "@id": "forgotPassMenu",
+                                  "#text": "Forgot password"
+                                }
+                              }
+                            },
+                            {
+                              "@class": "form-group",
+                              "div": {
+                                "@class": "col-sm-12",
+                                "button": {
+                                  "@type": "button",
+                                  "@id": "loginButonMenu",
+                                  "@class": "btn btn-primary pull-right",
+                                  "#text": "Sign in"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "@class": "nav navbar-nav mobile-nav",
+                  "li": [
+                    {
+                      "@class": "api",
+                      "a": {
+                        "@data-toggle": "dropdown",
+                        "@class": "dropdown-toggle",
+                        "@href": "javascript:void(0)",
+                        "#text": "APIs"
+                      },
+                      "ul": {
+                        "@class": "dropdown-menu",
+                        "li": [
+                          {
+                            "a": {
+                              "@href": "/edamam-nutrition-api",
+                              "#text": "Nutrition Analysis API"
+                            }
+                          },
+                          {
+                            "a": {
+                              "@href": "/food-database-api",
+                              "#text": "Food Database API"
+                            }
+                          },
+                          {
+                            "a": {
+                              "@href": "/edamam-recipe-api",
+                              "#text": "Recipe Search API"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "@class": "docs",
+                      "a": {
+                        "@data-toggle": "dropdown",
+                        "@class": "dropdown-toggle",
+                        "@href": "javascript:void(0)",
+                        "#text": "Documentation"
+                      },
+                      "ul": {
+                        "@class": "dropdown-menu",
+                        "li": [
+                          {
+                            "a": {
+                              "@href": "/edamam-docs-nutrition-api",
+                              "#text": "Nutrition Analysis API"
+                            }
+                          },
+                          {
+                            "a": {
+                              "@href": "/food-database-api-docs",
+                              "#text": "Food Database API"
+                            }
+                          },
+                          {
+                            "a": {
+                              "@href": "/edamam-docs-recipe-api",
+                              "#text": "Recipe Search API"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "@class": "cases",
+                      "a": {
+                        "@data-toggle": "dropdown",
+                        "@class": "dropdown-toggle",
+                        "@href": "javascript:void(0)",
+                        "#text": "Showcases"
+                      },
+                      "ul": {
+                        "@class": "dropdown-menu",
+                        "li": [
+                          {
+                            "a": {
+                              "@href": "/calorie_counting",
+                              "#text": "Calorie Counting and Food Logging"
+                            }
+                          },
+                          {
+                            "a": {
+                              "@href": "/meal_plans",
+                              "#text": "Diet recommendations and meal plans"
+                            }
+                          },
+                          {
+                            "a": {
+                              "@href": "/Recipe_nutrition",
+                              "#text": "Recipe Nutrition Analysis and Diet Tagging"
+                            }
+                          },
+                          {
+                            "a": {
+                              "@href": "/Food_recipe_licensing",
+                              "#text": "Food Data and Recipe Database Licensing"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "@class": "faq",
+                      "a": {
+                        "@href": "/api/faq",
+                        "#text": "FAQ"
+                      }
+                    },
+                    {
+                      "@class": "terms",
+                      "a": {
+                        "@href": "/about/terms",
+                        "#text": "Terms"
+                      }
+                    },
+                    {
+                      "@class": "attribution",
+                      "a": {
+                        "@href": "/attribution",
+                        "#text": "Attribution"
+                      }
+                    }
+                  ],
+                  "#comment": ""
+                }
+              ],
+              "#comment": ""
+            },
+            {
+              "@class": "collapse navbar-collapse",
+              "@id": "menu-center",
+              "ul": {
+                "@class": "nav navbar-nav navbar-brand-centered",
+                "li": [
+                  {
+                    "@class": "api",
+                    "a": {
+                      "@data-toggle": "dropdown",
+                      "@class": "dropdown-toggle",
+                      "@href": "javascript:void(0)",
+                      "#text": "APIs"
+                    },
+                    "ul": {
+                      "@class": "dropdown-menu",
+                      "li": [
+                        {
+                          "a": {
+                            "@href": "/edamam-nutrition-api",
+                            "#text": "Nutrition Analysis API"
+                          }
+                        },
+                        {
+                          "a": {
+                            "@href": "/food-database-api",
+                            "#text": "Food Database API"
+                          }
+                        },
+                        {
+                          "a": {
+                            "@href": "/edamam-recipe-api",
+                            "#text": "Recipe Search API"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "@class": "docs",
+                    "a": {
+                      "@data-toggle": "dropdown",
+                      "@class": "dropdown-toggle",
+                      "@href": "javascript:void(0)",
+                      "#text": "Documentation"
+                    },
+                    "ul": {
+                      "@class": "dropdown-menu",
+                      "li": [
+                        {
+                          "a": {
+                            "@href": "/edamam-docs-nutrition-api",
+                            "#text": "Nutrition Analysis API"
+                          }
+                        },
+                        {
+                          "a": {
+                            "@href": "/food-database-api-docs",
+                            "#text": "Food Database API"
+                          }
+                        },
+                        {
+                          "a": {
+                            "@href": "/edamam-docs-recipe-api",
+                            "#text": "Recipe Search API"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "@class": "cases",
+                    "a": {
+                      "@data-toggle": "dropdown",
+                      "@class": "dropdown-toggle",
+                      "@href": "javascript:void(0)",
+                      "#text": "Showcases"
+                    },
+                    "ul": {
+                      "@class": "dropdown-menu",
+                      "li": [
+                        {
+                          "a": {
+                            "@href": "/calorie_counting",
+                            "#text": "Calorie Counting and Food Logging"
+                          }
+                        },
+                        {
+                          "a": {
+                            "@href": "/meal_plans",
+                            "#text": "Diet recommendations and meal plans"
+                          }
+                        },
+                        {
+                          "a": {
+                            "@href": "/Recipe_nutrition",
+                            "#text": "Recipe Nutrition Analysis and Diet Tagging"
+                          }
+                        },
+                        {
+                          "a": {
+                            "@href": "/Food_recipe_licensing",
+                            "#text": "Food Data and Recipe Database Licensing"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "@class": "faq",
+                    "a": {
+                      "@href": "/api/faq",
+                      "#text": "FAQ"
+                    }
+                  },
+                  {
+                    "@class": "terms",
+                    "a": {
+                      "@href": "/about/terms",
+                      "#text": "Terms"
+                    }
+                  },
+                  {
+                    "@class": "attribution",
+                    "a": {
+                      "@href": "/attribution",
+                      "#text": "Attribution"
+                    }
+                  }
+                ],
+                "#comment": ""
+              },
+              "#comment": ""
+            }
+          ]
+        },
+        "#comment": ""
+      },
+      "link": [
+        {
+          "@rel": "alternate",
+          "@hreflang": "es",
+          "@href": "https://developer.edamam.com/es"
+        },
+        {
+          "@rel": "stylesheet",
+          "@href": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/css/bootstrap-select.min.css"
+        }
+      ],
+      "div": [
+        {
+          "@class": "container-fluid",
+          "@style": "background: #f1f1f1;",
+          "div": {
+            "@class": "container",
+            "@style": "background: #f1f1f1;",
+            "div": {
+              "@class": "col-md-10 col-md-offset-1",
+              "div": {
+                "@class": "row banner-home",
+                "@style": "background: #f1f1f1;",
+                "div": {
+                  "@class": "col-md-12",
+                  "h1": "Try Edamam’s new diet filter focused on COVID-19. It leverages scientific publications about nutrients and foods to promote immunity support and coping with viral infections.",
+                  "a": {
+                    "@id": "recipeLicensing",
+                    "@href": "/edamam-recipe-api",
+                    "@class": "popupOpen",
+                    "#text": "Try it"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "@class": "container-fluid bgr home",
+          "div": {
+            "@class": "container",
+            "@id": "container",
+            "div": {
+              "@class": "row",
+              "div": {
+                "@class": "col-md-10 col-md-offset-1",
+                "div": {
+                  "@class": "col-md-12",
+                  "div": [
+                    {
+                      "@class": "row",
+                      "div": {
+                        "@class": "col-md-12 text-center sub-title-home",
+                        "h2": "Choose the API you need"
+                      }
+                    },
+                    {
+                      "@class": "row",
+                      "div": [
+                        {
+                          "@class": "col-md-4",
+                          "div": [
+                            {
+                              "@class": "col-md-12 block-title",
+                              "h3": "Nutrition Analysis"
+                            },
+                            {
+                              "@class": "col-md-12 block",
+                              "div": [
+                                {
+                                  "@class": "desc",
+                                  "a": {
+                                    "@href": "/edamam-nutrition-api",
+                                    "#text": "more"
+                                  },
+                                  "#text": "Copy/paste any food recipe and learn its nutrition details in under a second"
+                                },
+                                {
+                                  "@class": "more row",
+                                  "a": {
+                                    "@data-toggle": "modal",
+                                    "@class": "analysisDeveloper",
+                                    "@href": "#registrationModal",
+                                    "#text": "Sign up"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "@class": "col-md-4",
+                          "div": [
+                            {
+                              "@class": "col-md-12 block-title",
+                              "h3": "Food Database Lookup"
+                            },
+                            {
+                              "@class": "col-md-12 block",
+                              "div": [
+                                {
+                                  "@class": "desc",
+                                  "a": {
+                                    "@href": "/food-database-api",
+                                    "#text": "more"
+                                  },
+                                  "#text": "Get free access to a database with close to 900,000 foods and over 680,000 unique UPC codes"
+                                },
+                                {
+                                  "@class": "more row",
+                                  "a": {
+                                    "@data-toggle": "modal",
+                                    "@class": "databaseDeveloper",
+                                    "@href": "#registrationModal",
+                                    "#text": "Sign up"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "@class": "col-md-4",
+                          "div": [
+                            {
+                              "@class": "col-md-12 block-title",
+                              "h3": "Food Entity Extraction"
+                            },
+                            {
+                              "@class": "col-md-12 block",
+                              "div": [
+                                {
+                                  "@class": "desc",
+                                  "a": {
+                                    "@href": "/edamam-nutrition-api",
+                                    "#text": "more"
+                                  },
+                                  "#text": "Analyze any food text and use our powerful food named entity extraction"
+                                },
+                                {
+                                  "@class": "more row",
+                                  "a": {
+                                    "@data-toggle": "modal",
+                                    "@class": "analysisDeveloper",
+                                    "@href": "#registrationModal",
+                                    "#text": "Sign up"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "@class": "row",
+                      "div": [
+                        {
+                          "@class": "col-md-4",
+                          "div": [
+                            {
+                              "@class": "col-md-12 block-title",
+                              "h3": "Recipe Licensing"
+                            },
+                            {
+                              "@class": "col-md-12 block",
+                              "div": [
+                                {
+                                  "@class": "desc",
+                                  "a": {
+                                    "@href": "/recipe-database-licensing",
+                                    "#text": "more"
+                                  },
+                                  "#text": "License over 40,000 full recipes and nutrition for over 2.3 million web recipes"
+                                },
+                                {
+                                  "@class": "more row",
+                                  "button": {
+                                    "@class": "popupOpenContactHome",
+                                    "@onclick": "zE.activate();",
+                                    "#text": "Contact Us"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "@class": "col-md-4",
+                          "div": [
+                            {
+                              "@class": "col-md-12 block-title",
+                              "h3": "Recipe Search"
+                            },
+                            {
+                              "@class": "col-md-12 block",
+                              "div": [
+                                {
+                                  "@class": "desc",
+                                  "a": {
+                                    "@href": "/edamam-recipe-api",
+                                    "#text": "more"
+                                  },
+                                  "#text": "Search over 2.3 million recipes by diets, calories and nutrient ranges"
+                                },
+                                {
+                                  "@class": "more row",
+                                  "a": {
+                                    "@data-toggle": "modal",
+                                    "@class": "searchDeveloper",
+                                    "@href": "#registrationModal",
+                                    "#text": "Sign up"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "@class": "col-md-4",
+                          "div": [
+                            {
+                              "@class": "col-md-12 block-title",
+                              "h3": "Meal Recommendation Engine"
+                            },
+                            {
+                              "@class": "col-md-12 block",
+                              "div": [
+                                {
+                                  "@class": "desc",
+                                  "a": {
+                                    "@href": "/edamam-recipe-api",
+                                    "#text": "more"
+                                  },
+                                  "#text": "Personalized meal recommendations using 28 nutrients and 40 diets/allergies"
+                                },
+                                {
+                                  "@class": "more row",
+                                  "a": {
+                                    "@data-toggle": "modal",
+                                    "@class": "searchDeveloper",
+                                    "@href": "#registrationModal",
+                                    "#text": "Sign up"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "@class": "container-fluid logos",
+          "div": {
+            "@class": "row",
+            "div": [
+              {
+                "@class": "col-md-12",
+                "h2": "You are in good company"
+              },
+              {
+                "@class": "col-md-12",
+                "ul": {
+                  "@class": "list-inline",
+                  "li": [
+                    {
+                      "img": {
+                        "@src": "/img/logos/amazon.png"
+                      }
+                    },
+                    {
+                      "img": {
+                        "@src": "/img/logos/barilla.png"
+                      }
+                    },
+                    {
+                      "img": {
+                        "@src": "/img/logos/bonappetit.png"
+                      }
+                    },
+                    {
+                      "img": {
+                        "@src": "/img/logos/chowhound.png"
+                      }
+                    },
+                    {
+                      "img": {
+                        "@src": "/img/logos/epicurious-new.png"
+                      }
+                    },
+                    {
+                      "img": {
+                        "@src": "/img/logos/food.png"
+                      }
+                    },
+                    {
+                      "img": {
+                        "@src": "/img/logos/foxtel.png"
+                      }
+                    },
+                    {
+                      "img": {
+                        "@src": "/img/logos/genius.png"
+                      }
+                    },
+                    {
+                      "img": {
+                        "@src": "/img/logos/hearst.png"
+                      }
+                    },
+                    {
+                      "img": {
+                        "@src": "/img/logos/kitchen.png"
+                      }
+                    },
+                    {
+                      "img": {
+                        "@src": "/img/logos/microsoft.png"
+                      }
+                    },
+                    {
+                      "img": {
+                        "@src": "/img/logos/nestle-new.png"
+                      }
+                    },
+                    {
+                      "img": {
+                        "@src": "/img/logos/nyt.png"
+                      }
+                    },
+                    {
+                      "img": {
+                        "@src": "/img/logos/random.png"
+                      }
+                    },
+                    {
+                      "img": {
+                        "@src": "/img/logos/tronc.png"
+                      }
+                    },
+                    {
+                      "img": {
+                        "@src": "/img/logos/valassis.png"
+                      }
+                    },
+                    {
+                      "img": {
+                        "@src": "/img/logos/validic.png"
+                      }
+                    },
+                    {
+                      "img": {
+                        "@src": "/img/logos/cater-new.png"
+                      }
+                    },
+                    {
+                      "img": {
+                        "@src": "/img/logos/dailymeal-new.png"
+                      }
+                    },
+                    {
+                      "img": {
+                        "@src": "/img/logos/freshco-new.png"
+                      }
+                    },
+                    {
+                      "img": {
+                        "@src": "/img/logos/kitchn.png"
+                      }
+                    },
+                    {
+                      "img": {
+                        "@src": "/img/logos/ocean.png"
+                      }
+                    },
+                    {
+                      "img": {
+                        "@src": "/img/logos/purewow.png"
+                      }
+                    },
+                    {
+                      "img": {
+                        "@src": "/img/logos/scripps.png"
+                      }
+                    },
+                    {
+                      "img": {
+                        "@src": "/img/logos/virta.png"
+                      }
+                    },
+                    {
+                      "img": {
+                        "@src": "/img/logos/zerocater-new.png"
+                      }
+                    },
+                    {
+                      "img": {
+                        "@src": "/img/logos/bsdi.png"
+                      }
+                    },
+                    {
+                      "img": {
+                        "@src": "/img/logos/chefmod.png"
+                      }
+                    },
+                    {
+                      "img": {
+                        "@src": "/img/logos/eatreal.png"
+                      }
+                    },
+                    {
+                      "img": {
+                        "@src": "/img/logos/greatist.png"
+                      }
+                    },
+                    {
+                      "img": {
+                        "@src": "/img/logos/howudish.png"
+                      }
+                    },
+                    {
+                      "img": {
+                        "@src": "/img/logos/omnivore.png"
+                      }
+                    },
+                    {
+                      "img": {
+                        "@src": "/img/logos/sheknows.png"
+                      }
+                    },
+                    {
+                      "img": {
+                        "@src": "/img/logos/suggestic.png"
+                      }
+                    },
+                    {
+                      "img": {
+                        "@src": "/img/logos/theplantcafe.png"
+                      }
+                    },
+                    {
+                      "img": {
+                        "@src": "/img/logos/zevohealth.png"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@class": "modal fade",
+          "@id": "analysisModal",
+          "@tabindex": "-1",
+          "@role": "dialog",
+          "div": {
+            "@class": "modal-dialog modal-vertical-centered",
+            "div": {
+              "@class": "modal-content",
+              "div": [
+                {
+                  "@class": "modal-header",
+                  "button": {
+                    "@type": "button",
+                    "@class": "close",
+                    "@data-dismiss": "modal",
+                    "@aria-label": "Close",
+                    "span": {
+                      "@aria-hidden": "true",
+                      "#text": "×"
+                    }
+                  },
+                  "h4": {
+                    "@class": "modal-title text-center",
+                    "#text": "Nutrition Analysis API Demo"
+                  }
+                },
+                {
+                  "@class": "modal-body text-center",
+                  "p": {
+                    "span": {
+                      "@class": "example",
+                      "#text": "\"1 cup rice, 10 oz chickpeas\""
+                    },
+                    "br": "",
+                    "#text": [
+                      "Enter an ingredient list list for what you are cooking, like",
+                      ", etc.",
+                      "Enter each ingredient on a new line."
+                    ]
+                  },
+                  "div": [
+                    {
+                      "@class": "col-sm-7",
+                      "p": [
+                        {
+                          "textarea": {
+                            "@name": "",
+                            "@id": "demoAnalysis",
+                            "@cols": "30",
+                            "@rows": "10",
+                            "@class": "form-control",
+                            "#text": "1 cup rice,\r\n10 oz chickpeas"
+                          }
+                        },
+                        {
+                          "button": {
+                            "@type": "button",
+                            "@class": "btn btn-primary calc-analysis-api",
+                            "#text": "Analyze"
+                          }
+                        }
+                      ],
+                      "div": {
+                        "@class": "demo-result"
+                      }
+                    },
+                    {
+                      "@class": "col-sm-5",
+                      "div": {
+                        "@class": "demo-result-label"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "@class": "modal-footer"
+                }
+              ]
+            },
+            "#comment": ""
+          },
+          "#comment": ""
+        },
+        {
+          "@class": "modal fade",
+          "@id": "demoModal",
+          "@tabindex": "-1",
+          "@role": "dialog",
+          "div": {
+            "@class": "modal-dialog modal-vertical-centered",
+            "div": {
+              "@class": "modal-content",
+              "div": [
+                {
+                  "@class": "modal-header",
+                  "button": {
+                    "@type": "button",
+                    "@class": "close",
+                    "@data-dismiss": "modal",
+                    "@aria-label": "Close",
+                    "span": {
+                      "@aria-hidden": "true",
+                      "#text": "×"
+                    }
+                  },
+                  "h4": {
+                    "@class": "modal-title text-center",
+                    "#text": "Food Database API Demo"
+                  }
+                },
+                {
+                  "@class": "modal-body text-center",
+                  "p": [
+                    {
+                      "span": [
+                        {
+                          "@class": "example",
+                          "#text": "\"coffee and croissant\""
+                        },
+                        {
+                          "@class": "example",
+                          "#text": "\"chicken enchilada\""
+                        }
+                      ],
+                      "#text": [
+                        "Enter a what you have eaten, like",
+                        "or",
+                        "to see how it works. We have accurate data tens of thousands of foods, including international dishes."
+                      ]
+                    },
+                    {
+                      "textarea": {
+                        "@name": "",
+                        "@id": "demoFoodDB",
+                        "@cols": "30",
+                        "@rows": "10",
+                        "@class": "form-control",
+                        "#text": "coffee and croissant"
+                      }
+                    },
+                    {
+                      "button": {
+                        "@type": "button",
+                        "@class": "btn btn-primary calc",
+                        "#text": "Calculate Foods"
+                      }
+                    }
+                  ],
+                  "div": {
+                    "@class": "demo-result"
+                  }
+                },
+                {
+                  "@class": "modal-footer"
+                }
+              ]
+            },
+            "#comment": ""
+          },
+          "#comment": ""
+        },
+        {
+          "@class": "modal fade",
+          "@id": "thanksModal",
+          "@tabindex": "-1",
+          "@role": "dialog",
+          "div": {
+            "@class": "modal-dialog modal-vertical-centered",
+            "div": {
+              "@class": "modal-content",
+              "div": [
+                {
+                  "@class": "modal-header",
+                  "button": {
+                    "@type": "button",
+                    "@class": "close",
+                    "@data-dismiss": "modal",
+                    "@aria-label": "Close",
+                    "span": {
+                      "@aria-hidden": "true",
+                      "#text": "×"
+                    }
+                  },
+                  "h4": {
+                    "@class": "modal-title text-center",
+                    "#text": "Thank you!"
+                  }
+                },
+                {
+                  "@class": "modal-body text-center",
+                  "p": "To proceed, please log in to your account."
+                },
+                {
+                  "@class": "modal-footer",
+                  "#comment": ""
+                }
+              ]
+            },
+            "#comment": ""
+          },
+          "#comment": ""
+        },
+        {
+          "@class": "modal fade",
+          "@id": "thanksModalCC",
+          "@tabindex": "-1",
+          "@role": "dialog",
+          "div": {
+            "@class": "modal-dialog modal-vertical-centered",
+            "div": {
+              "@class": "modal-content",
+              "@style": "padding: 20px;",
+              "div": [
+                {
+                  "@class": "modal-header",
+                  "button": {
+                    "@type": "button",
+                    "@class": "close",
+                    "@data-dismiss": "modal",
+                    "@aria-label": "Close",
+                    "span": {
+                      "@aria-hidden": "true",
+                      "#text": "×"
+                    }
+                  },
+                  "h4": {
+                    "@class": "modal-title text-center",
+                    "#text": "Thank you!"
+                  }
+                },
+                {
+                  "@class": "modal-body text-center",
+                  "p": "To proceed, please enter your Credit Card details, after login."
+                },
+                {
+                  "@class": "modal-footer text-center",
+                  "@style": "text-align: center;",
+                  "button": {
+                    "@type": "button",
+                    "@class": "btn btn-primary",
+                    "@data-dismiss": "modal",
+                    "#text": "Go to account page"
+                  }
+                }
+              ]
+            },
+            "#comment": ""
+          },
+          "#comment": ""
+        },
+        {
+          "@class": "modal fade",
+          "@id": "confirmModal",
+          "@tabindex": "-1",
+          "@role": "dialog",
+          "div": {
+            "@class": "modal-dialog modal-vertical-centered",
+            "div": {
+              "@class": "modal-content",
+              "div": [
+                {
+                  "@class": "modal-header",
+                  "button": {
+                    "@type": "button",
+                    "@class": "close",
+                    "@data-dismiss": "modal",
+                    "@aria-label": "Close",
+                    "span": {
+                      "@aria-hidden": "true",
+                      "#text": "×"
+                    }
+                  },
+                  "#comment": ""
+                },
+                {
+                  "@class": "modal-body text-center",
+                  "p": "Please note that this is a paid plan!"
+                },
+                {
+                  "@class": "modal-footer text-center",
+                  "a": [
+                    {
+                      "@data-toggle": "modal",
+                      "@data-dismiss": "modal",
+                      "@class": "popupOpen cancel",
+                      "#text": "Cancel"
+                    },
+                    {
+                      "@data-toggle": "modal",
+                      "@href": "#registrationModal",
+                      "@class": "popupOpen",
+                      "#text": "Subscribe Now"
+                    }
+                  ]
+                }
+              ]
+            },
+            "#comment": ""
+          },
+          "#comment": ""
+        },
+        {
+          "@class": "modal fade",
+          "@id": "registrationModal",
+          "@tabindex": "-1",
+          "@role": "dialog",
+          "div": {
+            "@class": "modal-dialog modal-vertical-centered",
+            "div": {
+              "@class": "modal-content",
+              "div": {
+                "@class": "modal-body",
+                "div": {
+                  "@class": "col-md-12",
+                  "div": {
+                    "@class": "row",
+                    "button": {
+                      "@type": "button",
+                      "@class": "close",
+                      "@data-dismiss": "modal",
+                      "@aria-label": "Close",
+                      "span": {
+                        "@aria-hidden": "true",
+                        "#text": "×"
+                      }
+                    },
+                    "div": {
+                      "@class": "signup",
+                      "div": {
+                        "@class": "loader"
+                      },
+                      "form": [
+                        {
+                          "@id": "choosePlan",
+                          "div": [
+                            {
+                              "@class": "col-md-12 form-group",
+                              "label": "Sign Up",
+                              "input": {
+                                "@type": "email",
+                                "@class": "form-control",
+                                "@id": "inputEmailFirst",
+                                "@placeholder": "Email Address",
+                                "@data-error": "The input is not a valid email address.",
+                                "@required": ""
+                              },
+                              "div": {
+                                "@class": "help-block with-errors"
+                              }
+                            },
+                            {
+                              "@class": "col-md-12 form-group",
+                              "select": {
+                                "@id": "inputPlansChoice",
+                                "@class": "form-control selectpicker",
+                                "option": [
+                                  {
+                                    "@selected": "",
+                                    "@value": "",
+                                    "#text": "Choose your plan"
+                                  },
+                                  {
+                                    "@disabled": "",
+                                    "#text": "Nutrition Analysis API"
+                                  },
+                                  {
+                                    "@value": "freeAnalysis",
+                                    "#text": "Developer"
+                                  },
+                                  {
+                                    "@disabled": "",
+                                    "#text": "Recipe Search API"
+                                  },
+                                  {
+                                    "@value": "freeSearch",
+                                    "#text": "Developer"
+                                  },
+                                  {
+                                    "@disabled": "",
+                                    "#text": "Food Database API"
+                                  },
+                                  {
+                                    "@value": "freeDatabase",
+                                    "#text": "Developer"
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "@class": "col-md-12 form-group",
+                              "button": {
+                                "@type": "button",
+                                "@id": "sendPlan",
+                                "@class": "btn btn-primary pull-right",
+                                "#text": "Next"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "@action": "https://formden.com/post/VtjWxazR/",
+                          "@method": "post",
+                          "@id": "formContact",
+                          "div": [
+                            {
+                              "@class": "col-md-12 form-group",
+                              "label": "Contact Info",
+                              "input": {
+                                "@type": "email",
+                                "@class": "form-control",
+                                "@id": "inputEmailPlan",
+                                "@name": "inputEmailPlan",
+                                "@placeholder": "Email Address",
+                                "@data-error": "The input is not a valid email address."
+                              },
+                              "div": {
+                                "@class": "help-block with-errors"
+                              }
+                            },
+                            {
+                              "@class": "col-md-12 form-group",
+                              "input": {
+                                "@type": "text",
+                                "@class": "form-control",
+                                "@placeholder": "Name",
+                                "@id": "inputName",
+                                "@name": "inputName",
+                                "@data-error": "Please fill out this field."
+                              },
+                              "div": {
+                                "@class": "help-block with-errors"
+                              }
+                            },
+                            {
+                              "@class": "col-md-12 form-group",
+                              "input": {
+                                "@type": "text",
+                                "@class": "form-control",
+                                "@placeholder": "Organization Name",
+                                "@id": "inputOrgName",
+                                "@name": "inputOrgName",
+                                "@data-error": "Please fill out this field."
+                              },
+                              "div": {
+                                "@class": "help-block with-errors"
+                              }
+                            },
+                            {
+                              "@class": "col-md-12 form-group",
+                              "textarea": {
+                                "@class": "form-control",
+                                "@cols": "40",
+                                "@id": "message",
+                                "@name": "message",
+                                "@placeholder": "Message",
+                                "@rows": "10"
+                              },
+                              "div": {
+                                "@class": "help-block with-errors"
+                              }
+                            },
+                            {
+                              "@class": "col-md-12 form-group",
+                              "label": "Your plan:",
+                              "select": {
+                                "@id": "inputPlans",
+                                "@name": "inputPlans",
+                                "@class": "form-control selectpicker",
+                                "option": [
+                                  {
+                                    "@disabled": "",
+                                    "#text": "Nutrition Analysis API"
+                                  },
+                                  {
+                                    "@value": "DeveloperAnalysis",
+                                    "#text": "Developer"
+                                  },
+                                  {
+                                    "@value": "EnterpriseAnalysisCore",
+                                    "#text": "Enterprise Core"
+                                  },
+                                  {
+                                    "@value": "EnterpriseAnalysisUnlimited",
+                                    "#text": "Enterprise Unlimited"
+                                  },
+                                  {
+                                    "@disabled": "",
+                                    "#text": "Recipe Search API"
+                                  },
+                                  {
+                                    "@value": "DeveloperSearch",
+                                    "#text": "Developer"
+                                  },
+                                  {
+                                    "@value": "EnterpriseSearchCore",
+                                    "#text": "Enterprise Core"
+                                  },
+                                  {
+                                    "@value": "EnterpriseSearchUnlimited",
+                                    "#text": "Enterprise Unlimited"
+                                  },
+                                  {
+                                    "@disabled": "",
+                                    "#text": "Food Database API"
+                                  },
+                                  {
+                                    "@value": "DeveloperDatabase",
+                                    "#text": "Developer"
+                                  },
+                                  {
+                                    "@value": "EnterpriseDatabaseCore",
+                                    "#text": "Enterprise Core"
+                                  },
+                                  {
+                                    "@value": "EnterpriseDatabaseUnlimited",
+                                    "#text": "Enterprise Unlimited"
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "@class": "col-md-12 form-group",
+                              "input": {
+                                "@name": "_honey",
+                                "@style": "display:none",
+                                "@type": "text"
+                              },
+                              "button": {
+                                "@name": "submit",
+                                "@type": "submit",
+                                "@id": "sendContact",
+                                "@class": "btn btn-primary pull-right",
+                                "#text": "Submit"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "@action": "https://formden.com/post/VtjWxazR/",
+                          "@method": "post",
+                          "@id": "formLicensing",
+                          "div": [
+                            {
+                              "@class": "col-md-12 form-group",
+                              "label": "Contact Info",
+                              "input": {
+                                "@type": "email",
+                                "@class": "form-control",
+                                "@id": "inputEmailPlan",
+                                "@name": "inputEmailPlan",
+                                "@placeholder": "Email Address",
+                                "@data-error": "The input is not a valid email address."
+                              },
+                              "div": {
+                                "@class": "help-block with-errors"
+                              }
+                            },
+                            {
+                              "@class": "col-md-12 form-group",
+                              "input": {
+                                "@type": "text",
+                                "@class": "form-control",
+                                "@placeholder": "Name",
+                                "@id": "inputName",
+                                "@name": "inputName",
+                                "@data-error": "Please fill out this field."
+                              },
+                              "div": {
+                                "@class": "help-block with-errors"
+                              }
+                            },
+                            {
+                              "@class": "col-md-12 form-group",
+                              "input": {
+                                "@type": "text",
+                                "@class": "form-control",
+                                "@placeholder": "Organization Name",
+                                "@id": "inputOrgName",
+                                "@name": "inputOrgName",
+                                "@data-error": "Please fill out this field."
+                              },
+                              "div": {
+                                "@class": "help-block with-errors"
+                              }
+                            },
+                            {
+                              "@class": "col-md-12 form-group",
+                              "textarea": {
+                                "@class": "form-control",
+                                "@cols": "40",
+                                "@id": "message",
+                                "@name": "message",
+                                "@placeholder": "Message",
+                                "@rows": "10"
+                              },
+                              "div": {
+                                "@class": "help-block with-errors"
+                              }
+                            },
+                            {
+                              "@class": "col-md-12 form-group",
+                              "input": [
+                                {
+                                  "@name": "_honey",
+                                  "@style": "display:none",
+                                  "@type": "text"
+                                },
+                                {
+                                  "@name": "inputPlans",
+                                  "@style": "display:none",
+                                  "@type": "hidden",
+                                  "@value": "recipeLicensing"
+                                }
+                              ],
+                              "button": {
+                                "@name": "submit",
+                                "@type": "submit",
+                                "@id": "sendContact",
+                                "@class": "btn btn-primary pull-right",
+                                "#text": "Submit"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "@id": "formUser",
+                          "div": [
+                            {
+                              "@class": "col-md-12 form-group",
+                              "label": "Sign Up Info",
+                              "input": {
+                                "@type": "text",
+                                "@class": "form-control",
+                                "@placeholder": "Username",
+                                "@id": "inputUsername",
+                                "@data-error": "Please fill out this field.",
+                                "@required": ""
+                              },
+                              "div": {
+                                "@class": "help-block with-errors"
+                              }
+                            },
+                            {
+                              "@class": "col-md-12 form-group",
+                              "input": {
+                                "@type": "email",
+                                "@class": "form-control",
+                                "@id": "inputEmail",
+                                "@placeholder": "Email Address",
+                                "@data-error": "The input is not a valid email address.",
+                                "@required": ""
+                              },
+                              "div": {
+                                "@class": "help-block with-errors"
+                              }
+                            },
+                            {
+                              "@class": "col-md-12 form-group",
+                              "div": {
+                                "@class": "row",
+                                "div": [
+                                  {
+                                    "@class": "col-md-6 form-group",
+                                    "input": {
+                                      "@type": "password",
+                                      "@class": "form-control",
+                                      "@id": "inputPassword",
+                                      "@placeholder": "Password",
+                                      "@required": ""
+                                    },
+                                    "div": {
+                                      "@class": "help-block with-errors"
+                                    }
+                                  },
+                                  {
+                                    "@class": "col-md-6 form-group",
+                                    "input": {
+                                      "@type": "password",
+                                      "@class": "form-control",
+                                      "@id": "inputPasswordConfirm",
+                                      "@data-match": "#inputPassword",
+                                      "@data-match-error": "These don't match.",
+                                      "@placeholder": "Confirm Password",
+                                      "@required": ""
+                                    },
+                                    "div": {
+                                      "@class": "help-block with-errors"
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "@class": "col-md-12 form-group",
+                              "input": {
+                                "@type": "text",
+                                "@class": "form-control",
+                                "@placeholder": "Organization Name",
+                                "@id": "inputOrgName",
+                                "@data-error": "Please fill out this field.",
+                                "@required": ""
+                              },
+                              "div": {
+                                "@class": "help-block with-errors"
+                              }
+                            },
+                            {
+                              "@class": "col-md-12 form-group",
+                              "label": "Choose your plan:",
+                              "select": {
+                                "@id": "inputPlans",
+                                "@class": "form-control selectpicker",
+                                "option": [
+                                  {
+                                    "@disabled": "",
+                                    "#text": "Nutrition Analysis API"
+                                  },
+                                  {
+                                    "@value": "{\"applicationPlanId\":\"2357355949169\",\"servicePlanId\":\"2357355820566\"}",
+                                    "#text": "Developer"
+                                  },
+                                  {
+                                    "@value": "{\"applicationPlanId\":\"2357356238265\",\"servicePlanId\":\"2357355820566\"}",
+                                    "#text": "Enterprise Core"
+                                  },
+                                  {
+                                    "@disabled": "",
+                                    "#text": "Recipe Search API"
+                                  },
+                                  {
+                                    "@value": "{\"applicationPlanId\":\"2357355869577\",\"servicePlanId\":\"2357355820567\"}",
+                                    "#text": "Developer"
+                                  },
+                                  {
+                                    "@value": "{\"applicationPlanId\":\"2555417725632\",\"servicePlanId\":\"2357355820567\"}",
+                                    "#text": "Enterprise Core"
+                                  },
+                                  {
+                                    "@disabled": "",
+                                    "#text": "Food Database API"
+                                  },
+                                  {
+                                    "@value": "{\"applicationPlanId\":\"2357355947380\",\"servicePlanId\":\"2357355942325\"}",
+                                    "#text": "Developer"
+                                  },
+                                  {
+                                    "@value": "{\"applicationPlanId\":\"2357355969077\",\"servicePlanId\":\"2357355942325\"}",
+                                    "#text": "Enterprise Core"
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "@class": "col-md-12 form-group",
+                              "div": {
+                                "@class": "checkbox",
+                                "input": {
+                                  "@id": "checkbox",
+                                  "@type": "checkbox",
+                                  "@data-error": "Check",
+                                  "@required": ""
+                                },
+                                "label": {
+                                  "@for": "checkbox",
+                                  "a": {
+                                    "@href": "/about/terms",
+                                    "@target": "_blank",
+                                    "#text": "I Agree To Term & Privacy Policy"
+                                  }
+                                }
+                              }
+                            },
+                            {
+                              "@id": "cart-confirm",
+                              "@class": "col-md-12 form-group",
+                              "@style": "margin-top: -25px;display:none;",
+                              "div": {
+                                "@class": "checkbox",
+                                "input": {
+                                  "@id": "checkbox-cart",
+                                  "@type": "checkbox",
+                                  "@data-error": "Check",
+                                  "@required": ""
+                                },
+                                "label": {
+                                  "@for": "checkbox-cart",
+                                  "#text": "I Agree to enter a Credit Card upon account creation in order to use the API"
+                                }
+                              }
+                            },
+                            {
+                              "@class": "col-md-12 form-group err has-error",
+                              "div": {
+                                "@class": "help-block with-errors"
+                              }
+                            },
+                            {
+                              "@class": "col-md-12 form-group",
+                              "button": {
+                                "@type": "button",
+                                "@id": "sendUser",
+                                "@class": "btn btn-primary pull-right",
+                                "@data-loading-text": "<i class='fa fa-circle-o-notch fa-spin'></i> Processing",
+                                "#text": "Sign Up"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "@id": "formCard",
+                          "div": [
+                            {
+                              "@class": "col-md-12 form-group",
+                              "label": "Billing Info",
+                              "div": {
+                                "@class": "row",
+                                "div": [
+                                  {
+                                    "@class": "col-md-6 form-group",
+                                    "input": {
+                                      "@type": "text",
+                                      "@class": "form-control",
+                                      "@id": "firstNameCC",
+                                      "@placeholder": "First Name",
+                                      "@data-error": "Please fill out this field.",
+                                      "@required": ""
+                                    },
+                                    "div": {
+                                      "@class": "help-block with-errors"
+                                    }
+                                  },
+                                  {
+                                    "@class": "col-md-6 form-group",
+                                    "input": {
+                                      "@type": "text",
+                                      "@class": "form-control",
+                                      "@id": "lastNameCC",
+                                      "@placeholder": "Last Name",
+                                      "@data-error": "Please fill out this field.",
+                                      "@required": ""
+                                    },
+                                    "div": {
+                                      "@class": "help-block with-errors"
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "@class": "col-md-12 form-group",
+                              "input": {
+                                "@type": "text",
+                                "@pattern": "^[0-9]+$",
+                                "@autocomplete": "off",
+                                "@name": "cc",
+                                "@autocorrect": "off",
+                                "@autocapitalize": "none",
+                                "@spellcheck": "false",
+                                "@maxlength": "22",
+                                "@class": "form-control",
+                                "@placeholder": "Card Number",
+                                "@id": "cardNumberCC",
+                                "@data-error": "Please fill out this field.",
+                                "@required": ""
+                              },
+                              "div": {
+                                "@class": "help-block with-errors"
+                              }
+                            },
+                            {
+                              "@class": "col-md-12 form-group",
+                              "input": {
+                                "@type": "text",
+                                "@pattern": "^[0-9]+$",
+                                "@autocomplete": "off",
+                                "@name": "cvc",
+                                "@autocorrect": "off",
+                                "@autocapitalize": "none",
+                                "@spellcheck": "false",
+                                "@maxlength": "4",
+                                "@class": "form-control",
+                                "@placeholder": "CVV",
+                                "@id": "cvc",
+                                "@data-error": "Please fill out this field.",
+                                "@required": ""
+                              },
+                              "div": {
+                                "@class": "help-block with-errors"
+                              }
+                            },
+                            {
+                              "@class": "col-md-12 form-group",
+                              "div": {
+                                "@class": "row",
+                                "div": [
+                                  {
+                                    "@class": "col-md-6 form-group select",
+                                    "select": {
+                                      "@id": "expMonthCC",
+                                      "@class": "form-control selectpicker",
+                                      "@data-error": "Please fill out this field.",
+                                      "@title": "Expiration Month",
+                                      "@required": "",
+                                      "option": [
+                                        {
+                                          "@value": "01",
+                                          "#text": "1"
+                                        },
+                                        {
+                                          "@value": "02",
+                                          "#text": "2"
+                                        },
+                                        {
+                                          "@value": "03",
+                                          "#text": "3"
+                                        },
+                                        {
+                                          "@value": "04",
+                                          "#text": "4"
+                                        },
+                                        {
+                                          "@value": "05",
+                                          "#text": "5"
+                                        },
+                                        {
+                                          "@value": "06",
+                                          "#text": "6"
+                                        },
+                                        {
+                                          "@value": "07",
+                                          "#text": "7"
+                                        },
+                                        {
+                                          "@value": "08",
+                                          "#text": "8"
+                                        },
+                                        {
+                                          "@value": "09",
+                                          "#text": "9"
+                                        },
+                                        {
+                                          "@value": "10",
+                                          "#text": "10"
+                                        },
+                                        {
+                                          "@value": "11",
+                                          "#text": "11"
+                                        },
+                                        {
+                                          "@value": "12",
+                                          "#text": "12"
+                                        }
+                                      ]
+                                    },
+                                    "div": {
+                                      "@class": "help-block with-errors"
+                                    }
+                                  },
+                                  {
+                                    "@class": "col-md-6 form-group select",
+                                    "select": {
+                                      "@id": "expYearCC",
+                                      "@class": "form-control selectpicker",
+                                      "@data-error": "Please fill out this field.",
+                                      "@title": "Expiration Year",
+                                      "@required": "",
+                                      "option": [
+                                        {
+                                          "@value": "16",
+                                          "#text": "2016"
+                                        },
+                                        {
+                                          "@value": "17",
+                                          "#text": "2017"
+                                        },
+                                        {
+                                          "@value": "18",
+                                          "#text": "2018"
+                                        },
+                                        {
+                                          "@value": "19",
+                                          "#text": "2019"
+                                        },
+                                        {
+                                          "@value": "20",
+                                          "#text": "2020"
+                                        },
+                                        {
+                                          "@value": "21",
+                                          "#text": "2021"
+                                        },
+                                        {
+                                          "@value": "22",
+                                          "#text": "2022"
+                                        },
+                                        {
+                                          "@value": "23",
+                                          "#text": "2023"
+                                        },
+                                        {
+                                          "@value": "24",
+                                          "#text": "2024"
+                                        },
+                                        {
+                                          "@value": "25",
+                                          "#text": "2025"
+                                        }
+                                      ]
+                                    },
+                                    "div": {
+                                      "@class": "help-block with-errors"
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "@class": "col-md-12 form-group",
+                              "input": {
+                                "@type": "text",
+                                "@class": "form-control",
+                                "@placeholder": "Address",
+                                "@id": "addressCC",
+                                "@data-error": "Please fill out this field.",
+                                "@required": ""
+                              },
+                              "div": {
+                                "@class": "help-block with-errors"
+                              }
+                            },
+                            {
+                              "@class": "col-md-12 form-group",
+                              "input": {
+                                "@type": "text",
+                                "@class": "form-control",
+                                "@placeholder": "City",
+                                "@id": "cityCC",
+                                "@data-error": "Please fill out this field.",
+                                "@required": ""
+                              },
+                              "div": {
+                                "@class": "help-block with-errors"
+                              }
+                            },
+                            {
+                              "@class": "col-md-12 form-group",
+                              "input": {
+                                "@type": "text",
+                                "@class": "form-control",
+                                "@placeholder": "ZIP code",
+                                "@id": "zipCC",
+                                "@data-error": "Please fill out this field.",
+                                "@required": ""
+                              },
+                              "div": {
+                                "@class": "help-block with-errors"
+                              }
+                            },
+                            {
+                              "@class": "col-md-12 form-group select last",
+                              "select": {
+                                "@id": "countryCC",
+                                "@class": "form-control selectpicker",
+                                "@required": "",
+                                "option": [
+                                  {
+                                    "@default": "",
+                                    "#text": "United States"
+                                  },
+                                  {
+                                    "@value": "Afghanistan",
+                                    "#text": "Afghanistan"
+                                  },
+                                  {
+                                    "@value": "Aland Islands",
+                                    "#text": "Aland Islands"
+                                  },
+                                  {
+                                    "@value": "Albania",
+                                    "#text": "Albania"
+                                  },
+                                  {
+                                    "@value": "Algeria",
+                                    "#text": "Algeria"
+                                  },
+                                  {
+                                    "@value": "American Samoa",
+                                    "#text": "American Samoa"
+                                  },
+                                  {
+                                    "@value": "Andorra",
+                                    "#text": "Andorra"
+                                  },
+                                  {
+                                    "@value": "Angola",
+                                    "#text": "Angola"
+                                  },
+                                  {
+                                    "@value": "Anguilla",
+                                    "#text": "Anguilla"
+                                  },
+                                  {
+                                    "@value": "Antarctica",
+                                    "#text": "Antarctica"
+                                  },
+                                  {
+                                    "@value": "Antigua And Barbuda",
+                                    "#text": "Antigua And Barbuda"
+                                  },
+                                  {
+                                    "@value": "Argentina",
+                                    "#text": "Argentina"
+                                  },
+                                  {
+                                    "@value": "Armenia",
+                                    "#text": "Armenia"
+                                  },
+                                  {
+                                    "@value": "Aruba",
+                                    "#text": "Aruba"
+                                  },
+                                  {
+                                    "@value": "Australia",
+                                    "#text": "Australia"
+                                  },
+                                  {
+                                    "@value": "Austria",
+                                    "#text": "Austria"
+                                  },
+                                  {
+                                    "@value": "Azerbaijan",
+                                    "#text": "Azerbaijan"
+                                  },
+                                  {
+                                    "@value": "Bahamas",
+                                    "#text": "Bahamas"
+                                  },
+                                  {
+                                    "@value": "Bahrain",
+                                    "#text": "Bahrain"
+                                  },
+                                  {
+                                    "@value": "Bangladesh",
+                                    "#text": "Bangladesh"
+                                  },
+                                  {
+                                    "@value": "Barbados",
+                                    "#text": "Barbados"
+                                  },
+                                  {
+                                    "@value": "Belarus",
+                                    "#text": "Belarus"
+                                  },
+                                  {
+                                    "@value": "Belgium",
+                                    "#text": "Belgium"
+                                  },
+                                  {
+                                    "@value": "Belize",
+                                    "#text": "Belize"
+                                  },
+                                  {
+                                    "@value": "Benin",
+                                    "#text": "Benin"
+                                  },
+                                  {
+                                    "@value": "Bermuda",
+                                    "#text": "Bermuda"
+                                  },
+                                  {
+                                    "@value": "Bhutan",
+                                    "#text": "Bhutan"
+                                  },
+                                  {
+                                    "@value": "Bolivia, Plurinational State of",
+                                    "#text": "Bolivia, Plurinational State of"
+                                  },
+                                  {
+                                    "@value": "Bonaire, Sint Eustatius and Saba",
+                                    "#text": "Bonaire, Sint Eustatius and Saba"
+                                  },
+                                  {
+                                    "@value": "Bosnia and Herzegovina",
+                                    "#text": "Bosnia and Herzegovina"
+                                  },
+                                  {
+                                    "@value": "Botswana",
+                                    "#text": "Botswana"
+                                  },
+                                  {
+                                    "@value": "Bouvet Island",
+                                    "#text": "Bouvet Island"
+                                  },
+                                  {
+                                    "@value": "Brazil",
+                                    "#text": "Brazil"
+                                  },
+                                  {
+                                    "@value": "British Indian Ocean Territory",
+                                    "#text": "British Indian Ocean Territory"
+                                  },
+                                  {
+                                    "@value": "Brunei Darussalam",
+                                    "#text": "Brunei Darussalam"
+                                  },
+                                  {
+                                    "@value": "Bulgaria",
+                                    "#text": "Bulgaria"
+                                  },
+                                  {
+                                    "@value": "Burkina Faso",
+                                    "#text": "Burkina Faso"
+                                  },
+                                  {
+                                    "@value": "Burundi",
+                                    "#text": "Burundi"
+                                  },
+                                  {
+                                    "@value": "Cambodia",
+                                    "#text": "Cambodia"
+                                  },
+                                  {
+                                    "@value": "Cameroon",
+                                    "#text": "Cameroon"
+                                  },
+                                  {
+                                    "@value": "Canada",
+                                    "#text": "Canada"
+                                  },
+                                  {
+                                    "@value": "Cape Verde",
+                                    "#text": "Cape Verde"
+                                  },
+                                  {
+                                    "@value": "Cayman Islands",
+                                    "#text": "Cayman Islands"
+                                  },
+                                  {
+                                    "@value": "Central African Republic",
+                                    "#text": "Central African Republic"
+                                  },
+                                  {
+                                    "@value": "Chad",
+                                    "#text": "Chad"
+                                  },
+                                  {
+                                    "@value": "Chile",
+                                    "#text": "Chile"
+                                  },
+                                  {
+                                    "@value": "China",
+                                    "#text": "China"
+                                  },
+                                  {
+                                    "@value": "Christmas Island",
+                                    "#text": "Christmas Island"
+                                  },
+                                  {
+                                    "@value": "Cocos (Keeling) Islands",
+                                    "#text": "Cocos (Keeling) Islands"
+                                  },
+                                  {
+                                    "@value": "Colombia",
+                                    "#text": "Colombia"
+                                  },
+                                  {
+                                    "@value": "Comoros",
+                                    "#text": "Comoros"
+                                  },
+                                  {
+                                    "@value": "Congo",
+                                    "#text": "Congo"
+                                  },
+                                  {
+                                    "@value": "Congo, the Democratic Republic of the",
+                                    "#text": "Congo, the Democratic Republic of the"
+                                  },
+                                  {
+                                    "@value": "Cook Islands",
+                                    "#text": "Cook Islands"
+                                  },
+                                  {
+                                    "@value": "Costa Rica",
+                                    "#text": "Costa Rica"
+                                  },
+                                  {
+                                    "@value": "Cote d'Ivoire",
+                                    "#text": "Cote d'Ivoire"
+                                  },
+                                  {
+                                    "@value": "Croatia",
+                                    "#text": "Croatia"
+                                  },
+                                  {
+                                    "@value": "Cuba",
+                                    "#text": "Cuba"
+                                  },
+                                  {
+                                    "@value": "Cyprus",
+                                    "#text": "Cyprus"
+                                  },
+                                  {
+                                    "@value": "Czech Republic",
+                                    "#text": "Czech Republic"
+                                  },
+                                  {
+                                    "@value": "Denmark",
+                                    "#text": "Denmark"
+                                  },
+                                  {
+                                    "@value": "Djibouti",
+                                    "#text": "Djibouti"
+                                  },
+                                  {
+                                    "@value": "Dominica",
+                                    "#text": "Dominica"
+                                  },
+                                  {
+                                    "@value": "Dominican Republic",
+                                    "#text": "Dominican Republic"
+                                  },
+                                  {
+                                    "@value": "Ecuador",
+                                    "#text": "Ecuador"
+                                  },
+                                  {
+                                    "@value": "Egypt",
+                                    "#text": "Egypt"
+                                  },
+                                  {
+                                    "@value": "El Salvador",
+                                    "#text": "El Salvador"
+                                  },
+                                  {
+                                    "@value": "Equatorial Guinea",
+                                    "#text": "Equatorial Guinea"
+                                  },
+                                  {
+                                    "@value": "Eritrea",
+                                    "#text": "Eritrea"
+                                  },
+                                  {
+                                    "@value": "Estonia",
+                                    "#text": "Estonia"
+                                  },
+                                  {
+                                    "@value": "Ethiopia",
+                                    "#text": "Ethiopia"
+                                  },
+                                  {
+                                    "@value": "Falkland Islands (Malvinas)",
+                                    "#text": "Falkland Islands (Malvinas)"
+                                  },
+                                  {
+                                    "@value": "Faroe Islands",
+                                    "#text": "Faroe Islands"
+                                  },
+                                  {
+                                    "@value": "Fiji",
+                                    "#text": "Fiji"
+                                  },
+                                  {
+                                    "@value": "Finland",
+                                    "#text": "Finland"
+                                  },
+                                  {
+                                    "@value": "France",
+                                    "#text": "France"
+                                  },
+                                  {
+                                    "@value": "French Guiana",
+                                    "#text": "French Guiana"
+                                  },
+                                  {
+                                    "@value": "French Polynesia",
+                                    "#text": "French Polynesia"
+                                  },
+                                  {
+                                    "@value": "French Southern Territories",
+                                    "#text": "French Southern Territories"
+                                  },
+                                  {
+                                    "@value": "Gabon",
+                                    "#text": "Gabon"
+                                  },
+                                  {
+                                    "@value": "Gambia",
+                                    "#text": "Gambia"
+                                  },
+                                  {
+                                    "@value": "Georgia",
+                                    "#text": "Georgia"
+                                  },
+                                  {
+                                    "@value": "Germany",
+                                    "#text": "Germany"
+                                  },
+                                  {
+                                    "@value": "Ghana",
+                                    "#text": "Ghana"
+                                  },
+                                  {
+                                    "@value": "Gibraltar",
+                                    "#text": "Gibraltar"
+                                  },
+                                  {
+                                    "@value": "Greece",
+                                    "#text": "Greece"
+                                  },
+                                  {
+                                    "@value": "Greenland",
+                                    "#text": "Greenland"
+                                  },
+                                  {
+                                    "@value": "Grenada",
+                                    "#text": "Grenada"
+                                  },
+                                  {
+                                    "@value": "Guadeloupe",
+                                    "#text": "Guadeloupe"
+                                  },
+                                  {
+                                    "@value": "Guam",
+                                    "#text": "Guam"
+                                  },
+                                  {
+                                    "@value": "Guatemala",
+                                    "#text": "Guatemala"
+                                  },
+                                  {
+                                    "@value": "Guernsey",
+                                    "#text": "Guernsey"
+                                  },
+                                  {
+                                    "@value": "Guinea",
+                                    "#text": "Guinea"
+                                  },
+                                  {
+                                    "@value": "Guinea-Bissau",
+                                    "#text": "Guinea-Bissau"
+                                  },
+                                  {
+                                    "@value": "Guyana",
+                                    "#text": "Guyana"
+                                  },
+                                  {
+                                    "@value": "Haiti",
+                                    "#text": "Haiti"
+                                  },
+                                  {
+                                    "@value": "Heard Island and McDonald Islands",
+                                    "#text": "Heard Island and McDonald Islands"
+                                  },
+                                  {
+                                    "@value": "Holy See (Vatican City State)",
+                                    "#text": "Holy See (Vatican City State)"
+                                  },
+                                  {
+                                    "@value": "Honduras",
+                                    "#text": "Honduras"
+                                  },
+                                  {
+                                    "@value": "Hong Kong",
+                                    "#text": "Hong Kong"
+                                  },
+                                  {
+                                    "@value": "Hungary",
+                                    "#text": "Hungary"
+                                  },
+                                  {
+                                    "@value": "Iceland",
+                                    "#text": "Iceland"
+                                  },
+                                  {
+                                    "@value": "India",
+                                    "#text": "India"
+                                  },
+                                  {
+                                    "@value": "Indonesia",
+                                    "#text": "Indonesia"
+                                  },
+                                  {
+                                    "@value": "Iran, Islamic Republic of",
+                                    "#text": "Iran, Islamic Republic of"
+                                  },
+                                  {
+                                    "@value": "Iraq",
+                                    "#text": "Iraq"
+                                  },
+                                  {
+                                    "@value": "Ireland",
+                                    "#text": "Ireland"
+                                  },
+                                  {
+                                    "@value": "Isle of Man",
+                                    "#text": "Isle of Man"
+                                  },
+                                  {
+                                    "@value": "Israel",
+                                    "#text": "Israel"
+                                  },
+                                  {
+                                    "@value": "Italy",
+                                    "#text": "Italy"
+                                  },
+                                  {
+                                    "@value": "Jamaica",
+                                    "#text": "Jamaica"
+                                  },
+                                  {
+                                    "@value": "Japan",
+                                    "#text": "Japan"
+                                  },
+                                  {
+                                    "@value": "Jersey",
+                                    "#text": "Jersey"
+                                  },
+                                  {
+                                    "@value": "Jordan",
+                                    "#text": "Jordan"
+                                  },
+                                  {
+                                    "@value": "Kazakhstan",
+                                    "#text": "Kazakhstan"
+                                  },
+                                  {
+                                    "@value": "Kenya",
+                                    "#text": "Kenya"
+                                  },
+                                  {
+                                    "@value": "Kiribati",
+                                    "#text": "Kiribati"
+                                  },
+                                  {
+                                    "@value": "Korea, Democratic People's Republic of",
+                                    "#text": "Korea, Democratic People's Republic of"
+                                  },
+                                  {
+                                    "@value": "Korea, Republic of",
+                                    "#text": "Korea, Republic of"
+                                  },
+                                  {
+                                    "@value": "Kuwait",
+                                    "#text": "Kuwait"
+                                  },
+                                  {
+                                    "@value": "Kyrgyzstan",
+                                    "#text": "Kyrgyzstan"
+                                  },
+                                  {
+                                    "@value": "Lao People's Democratic Republic",
+                                    "#text": "Lao People's Democratic Republic"
+                                  },
+                                  {
+                                    "@value": "Latvia",
+                                    "#text": "Latvia"
+                                  },
+                                  {
+                                    "@value": "Lebanon",
+                                    "#text": "Lebanon"
+                                  },
+                                  {
+                                    "@value": "Lesotho",
+                                    "#text": "Lesotho"
+                                  },
+                                  {
+                                    "@value": "Liberia",
+                                    "#text": "Liberia"
+                                  },
+                                  {
+                                    "@value": "Libya",
+                                    "#text": "Libya"
+                                  },
+                                  {
+                                    "@value": "Liechtenstein",
+                                    "#text": "Liechtenstein"
+                                  },
+                                  {
+                                    "@value": "Lithuania",
+                                    "#text": "Lithuania"
+                                  },
+                                  {
+                                    "@value": "Luxembourg",
+                                    "#text": "Luxembourg"
+                                  },
+                                  {
+                                    "@value": "Macao",
+                                    "#text": "Macao"
+                                  },
+                                  {
+                                    "@value": "Macedonia, The Former Yugoslav Republic Of",
+                                    "#text": "Macedonia, The Former Yugoslav Republic Of"
+                                  },
+                                  {
+                                    "@value": "Madagascar",
+                                    "#text": "Madagascar"
+                                  },
+                                  {
+                                    "@value": "Malawi",
+                                    "#text": "Malawi"
+                                  },
+                                  {
+                                    "@value": "Malaysia",
+                                    "#text": "Malaysia"
+                                  },
+                                  {
+                                    "@value": "Maldives",
+                                    "#text": "Maldives"
+                                  },
+                                  {
+                                    "@value": "Mali",
+                                    "#text": "Mali"
+                                  },
+                                  {
+                                    "@value": "Malta",
+                                    "#text": "Malta"
+                                  },
+                                  {
+                                    "@value": "Marshall Islands",
+                                    "#text": "Marshall Islands"
+                                  },
+                                  {
+                                    "@value": "Martinique",
+                                    "#text": "Martinique"
+                                  },
+                                  {
+                                    "@value": "Mauritania",
+                                    "#text": "Mauritania"
+                                  },
+                                  {
+                                    "@value": "Mauritius",
+                                    "#text": "Mauritius"
+                                  },
+                                  {
+                                    "@value": "Mayotte",
+                                    "#text": "Mayotte"
+                                  },
+                                  {
+                                    "@value": "Mexico",
+                                    "#text": "Mexico"
+                                  },
+                                  {
+                                    "@value": "Micronesia, Federated States of",
+                                    "#text": "Micronesia, Federated States of"
+                                  },
+                                  {
+                                    "@value": "Moldova, Republic of",
+                                    "#text": "Moldova, Republic of"
+                                  },
+                                  {
+                                    "@value": "Monaco",
+                                    "#text": "Monaco"
+                                  },
+                                  {
+                                    "@value": "Mongolia",
+                                    "#text": "Mongolia"
+                                  },
+                                  {
+                                    "@value": "Montenegro",
+                                    "#text": "Montenegro"
+                                  },
+                                  {
+                                    "@value": "Montserrat",
+                                    "#text": "Montserrat"
+                                  },
+                                  {
+                                    "@value": "Morocco",
+                                    "#text": "Morocco"
+                                  },
+                                  {
+                                    "@value": "Mozambique",
+                                    "#text": "Mozambique"
+                                  },
+                                  {
+                                    "@value": "Myanmar",
+                                    "#text": "Myanmar"
+                                  },
+                                  {
+                                    "@value": "Namibia",
+                                    "#text": "Namibia"
+                                  },
+                                  {
+                                    "@value": "Nauru",
+                                    "#text": "Nauru"
+                                  },
+                                  {
+                                    "@value": "Nepal",
+                                    "#text": "Nepal"
+                                  },
+                                  {
+                                    "@value": "Netherlands",
+                                    "#text": "Netherlands"
+                                  },
+                                  {
+                                    "@value": "New Caledonia",
+                                    "#text": "New Caledonia"
+                                  },
+                                  {
+                                    "@value": "New Zealand",
+                                    "#text": "New Zealand"
+                                  },
+                                  {
+                                    "@value": "Nicaragua",
+                                    "#text": "Nicaragua"
+                                  },
+                                  {
+                                    "@value": "Niger",
+                                    "#text": "Niger"
+                                  },
+                                  {
+                                    "@value": "Nigeria",
+                                    "#text": "Nigeria"
+                                  },
+                                  {
+                                    "@value": "Niue",
+                                    "#text": "Niue"
+                                  },
+                                  {
+                                    "@value": "Norfolk Island",
+                                    "#text": "Norfolk Island"
+                                  },
+                                  {
+                                    "@value": "Northern Mariana Islands",
+                                    "#text": "Northern Mariana Islands"
+                                  },
+                                  {
+                                    "@value": "Norway",
+                                    "#text": "Norway"
+                                  },
+                                  {
+                                    "@value": "Oman",
+                                    "#text": "Oman"
+                                  },
+                                  {
+                                    "@value": "Pakistan",
+                                    "#text": "Pakistan"
+                                  },
+                                  {
+                                    "@value": "Palau",
+                                    "#text": "Palau"
+                                  },
+                                  {
+                                    "@value": "Palestinian Territory, Occupied",
+                                    "#text": "Palestinian Territory, Occupied"
+                                  },
+                                  {
+                                    "@value": "Panama",
+                                    "#text": "Panama"
+                                  },
+                                  {
+                                    "@value": "Papua New Guinea",
+                                    "#text": "Papua New Guinea"
+                                  },
+                                  {
+                                    "@value": "Paraguay",
+                                    "#text": "Paraguay"
+                                  },
+                                  {
+                                    "@value": "Peru",
+                                    "#text": "Peru"
+                                  },
+                                  {
+                                    "@value": "Philippines",
+                                    "#text": "Philippines"
+                                  },
+                                  {
+                                    "@value": "Pitcairn",
+                                    "#text": "Pitcairn"
+                                  },
+                                  {
+                                    "@value": "Poland",
+                                    "#text": "Poland"
+                                  },
+                                  {
+                                    "@value": "Portugal",
+                                    "#text": "Portugal"
+                                  },
+                                  {
+                                    "@value": "Puerto Rico",
+                                    "#text": "Puerto Rico"
+                                  },
+                                  {
+                                    "@value": "Qatar",
+                                    "#text": "Qatar"
+                                  },
+                                  {
+                                    "@value": "Reunion",
+                                    "#text": "Reunion"
+                                  },
+                                  {
+                                    "@value": "Romania",
+                                    "#text": "Romania"
+                                  },
+                                  {
+                                    "@value": "Russian Federation",
+                                    "#text": "Russian Federation"
+                                  },
+                                  {
+                                    "@value": "Rwanda",
+                                    "#text": "Rwanda"
+                                  },
+                                  {
+                                    "@value": "Saint Barthelemy",
+                                    "#text": "Saint Barthelemy"
+                                  },
+                                  {
+                                    "@value": "Saint Helena, Ascension and Tristan da Cunha",
+                                    "#text": "Saint Helena, Ascension and Tristan da Cunha"
+                                  },
+                                  {
+                                    "@value": "Saint Kitts and Nevis",
+                                    "#text": "Saint Kitts and Nevis"
+                                  },
+                                  {
+                                    "@value": "Saint Lucia",
+                                    "#text": "Saint Lucia"
+                                  },
+                                  {
+                                    "@value": "Saint Martin (French Part)",
+                                    "#text": "Saint Martin (French Part)"
+                                  },
+                                  {
+                                    "@value": "Saint Pierre and Miquelon",
+                                    "#text": "Saint Pierre and Miquelon"
+                                  },
+                                  {
+                                    "@value": "Saint Vincent and the Grenadines",
+                                    "#text": "Saint Vincent and the Grenadines"
+                                  },
+                                  {
+                                    "@value": "Samoa",
+                                    "#text": "Samoa"
+                                  },
+                                  {
+                                    "@value": "San Marino",
+                                    "#text": "San Marino"
+                                  },
+                                  {
+                                    "@value": "Sao Tome and Principe",
+                                    "#text": "Sao Tome and Principe"
+                                  },
+                                  {
+                                    "@value": "Saudi Arabia",
+                                    "#text": "Saudi Arabia"
+                                  },
+                                  {
+                                    "@value": "Senegal",
+                                    "#text": "Senegal"
+                                  },
+                                  {
+                                    "@value": "Serbia",
+                                    "#text": "Serbia"
+                                  },
+                                  {
+                                    "@value": "Seychelles",
+                                    "#text": "Seychelles"
+                                  },
+                                  {
+                                    "@value": "Sierra Leone",
+                                    "#text": "Sierra Leone"
+                                  },
+                                  {
+                                    "@value": "Singapore",
+                                    "#text": "Singapore"
+                                  },
+                                  {
+                                    "@value": "Sint Maarten (Dutch Part)",
+                                    "#text": "Sint Maarten (Dutch Part)"
+                                  },
+                                  {
+                                    "@value": "Slovakia",
+                                    "#text": "Slovakia"
+                                  },
+                                  {
+                                    "@value": "Slovenia",
+                                    "#text": "Slovenia"
+                                  },
+                                  {
+                                    "@value": "Solomon Islands",
+                                    "#text": "Solomon Islands"
+                                  },
+                                  {
+                                    "@value": "Somalia",
+                                    "#text": "Somalia"
+                                  },
+                                  {
+                                    "@value": "South Africa",
+                                    "#text": "South Africa"
+                                  },
+                                  {
+                                    "@value": "South Georgia and the South Sandwich Islands",
+                                    "#text": "South Georgia and the South Sandwich Islands"
+                                  },
+                                  {
+                                    "@value": "South Sudan",
+                                    "#text": "South Sudan"
+                                  },
+                                  {
+                                    "@value": "Spain",
+                                    "#text": "Spain"
+                                  },
+                                  {
+                                    "@value": "Sri Lanka",
+                                    "#text": "Sri Lanka"
+                                  },
+                                  {
+                                    "@value": "Sudan",
+                                    "#text": "Sudan"
+                                  },
+                                  {
+                                    "@value": "Suriname",
+                                    "#text": "Suriname"
+                                  },
+                                  {
+                                    "@value": "Svalbard and Jan Mayen",
+                                    "#text": "Svalbard and Jan Mayen"
+                                  },
+                                  {
+                                    "@value": "Swaziland",
+                                    "#text": "Swaziland"
+                                  },
+                                  {
+                                    "@value": "Sweden",
+                                    "#text": "Sweden"
+                                  },
+                                  {
+                                    "@value": "Switzerland",
+                                    "#text": "Switzerland"
+                                  },
+                                  {
+                                    "@value": "Syrian Arab Republic",
+                                    "#text": "Syrian Arab Republic"
+                                  },
+                                  {
+                                    "@value": "Taiwan, Province of China",
+                                    "#text": "Taiwan, Province of China"
+                                  },
+                                  {
+                                    "@value": "Tajikistan",
+                                    "#text": "Tajikistan"
+                                  },
+                                  {
+                                    "@value": "Tanzania, United Republic of",
+                                    "#text": "Tanzania, United Republic of"
+                                  },
+                                  {
+                                    "@value": "Thailand",
+                                    "#text": "Thailand"
+                                  },
+                                  {
+                                    "@value": "Timor-Leste",
+                                    "#text": "Timor-Leste"
+                                  },
+                                  {
+                                    "@value": "Togo",
+                                    "#text": "Togo"
+                                  },
+                                  {
+                                    "@value": "Tokelau",
+                                    "#text": "Tokelau"
+                                  },
+                                  {
+                                    "@value": "Tonga",
+                                    "#text": "Tonga"
+                                  },
+                                  {
+                                    "@value": "Trinidad and Tobago",
+                                    "#text": "Trinidad and Tobago"
+                                  },
+                                  {
+                                    "@value": "Tunisia",
+                                    "#text": "Tunisia"
+                                  },
+                                  {
+                                    "@value": "Turkey",
+                                    "#text": "Turkey"
+                                  },
+                                  {
+                                    "@value": "Turkmenistan",
+                                    "#text": "Turkmenistan"
+                                  },
+                                  {
+                                    "@value": "Turks and Caicos Islands",
+                                    "#text": "Turks and Caicos Islands"
+                                  },
+                                  {
+                                    "@value": "Tuvalu",
+                                    "#text": "Tuvalu"
+                                  },
+                                  {
+                                    "@value": "Uganda",
+                                    "#text": "Uganda"
+                                  },
+                                  {
+                                    "@value": "Ukraine",
+                                    "#text": "Ukraine"
+                                  },
+                                  {
+                                    "@value": "United Arab Emirates",
+                                    "#text": "United Arab Emirates"
+                                  },
+                                  {
+                                    "@value": "United Kingdom",
+                                    "#text": "United Kingdom"
+                                  },
+                                  {
+                                    "@value": "United States Minor Outlying Islands",
+                                    "#text": "United States Minor Outlying Islands"
+                                  },
+                                  {
+                                    "@value": "Uruguay",
+                                    "#text": "Uruguay"
+                                  },
+                                  {
+                                    "@value": "Uzbekistan",
+                                    "#text": "Uzbekistan"
+                                  },
+                                  {
+                                    "@value": "Vanuatu",
+                                    "#text": "Vanuatu"
+                                  },
+                                  {
+                                    "@value": "Bolivarian Republic of",
+                                    "#text": "Bolivarian Republic of"
+                                  },
+                                  {
+                                    "@value": "Vietnam",
+                                    "#text": "Vietnam"
+                                  },
+                                  {
+                                    "@value": "Virgin Islands, British",
+                                    "#text": "Virgin Islands, British"
+                                  },
+                                  {
+                                    "@value": "Virgin Islands, U.S.",
+                                    "#text": "Virgin Islands, U.S."
+                                  },
+                                  {
+                                    "@value": "Wallis and Futuna",
+                                    "#text": "Wallis and Futuna"
+                                  },
+                                  {
+                                    "@value": "Western Sahara",
+                                    "#text": "Western Sahara"
+                                  },
+                                  {
+                                    "@value": "Yemen",
+                                    "#text": "Yemen"
+                                  },
+                                  {
+                                    "@value": "Zambia",
+                                    "#text": "Zambia"
+                                  },
+                                  {
+                                    "@value": "Zimbabwe",
+                                    "#text": "Zimbabwe"
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "@class": "col-md-12 form-group err has-error",
+                              "div": {
+                                "@class": "help-block with-errors"
+                              }
+                            },
+                            {
+                              "@class": "col-md-12 form-group",
+                              "button": [
+                                {
+                                  "@type": "button",
+                                  "@id": "prev",
+                                  "@class": "btn btn-primary pull-left",
+                                  "#text": "Previous"
+                                },
+                                {
+                                  "@type": "button",
+                                  "@id": "sendCC",
+                                  "@class": "btn btn-primary pull-right",
+                                  "@data-loading-text": "<i class='fa fa-circle-o-notch fa-spin'></i> Processing",
+                                  "#text": "Sign Up"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            },
+            "#comment": ""
+          },
+          "#comment": ""
+        }
+      ],
+      "script": [
+        {
+          "@src": "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+        },
+        {
+          "@src": "/js/general.js"
+        },
+        {
+          "@src": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/js/bootstrap-select.min.js"
+        },
+        {
+          "@src": "/js/validator.min.js"
+        },
+        {
+          "@src": "/js/validator.cc.js"
+        },
+        {
+          "@src": "https://js.braintreegateway.com/js/braintree-2.23.0.min.js"
+        },
+        {
+          "@src": "https://formden.com/static/cdn/formden.js"
+        },
+        "(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\r\n\r\n      ga('create', 'UA-30938764-1', 'auto');\r\n      ga('send', 'pageview');",
+        {
+          "@id": "ze-snippet",
+          "@src": "https://static.zdassets.com/ekr/snippet.js?key=c3c17823-b543-44d2-886d-3e2e2e271de9"
+        }
+      ]
+    }
+  }
+}
